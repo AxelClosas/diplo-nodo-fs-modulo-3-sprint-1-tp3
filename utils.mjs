@@ -22,10 +22,10 @@ class Superheroe {
 export function leerSuperheroes(ruta) {
   const datos = fs.readFileSync(ruta, 'utf8')
   const superheroesArray = JSON.parse(datos)
-
+  
   // Convertir a instancias de Superhéroes
   const superheroes = superheroesArray.map( heroe => new Superheroe(heroe.id, heroe.nombreSuperheroe, heroe.nombreReal, heroe.nombreSociedad, heroe.edad, heroe.planetaOrigen, heroe.debilidad, heroe.poder, heroe.habilidadEspecial, heroe.aliado, heroe.enemigo))
-
+  
   superheroes.sort((a, b) => a.nombreSuperheroe.localeCompare(b.nombreSuperheroe))
 
   return superheroes

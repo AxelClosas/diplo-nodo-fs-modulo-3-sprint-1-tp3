@@ -1,0 +1,29 @@
+{
+  "name": "tp3",
+  "version": "1.0.0",
+  "description": "Trabajo práctico N°3 del Modulo Backend con Node.js",
+  "keywords": [
+    "Javascript",
+    "NodeJS",
+    "Express",
+    "Framework"
+  ],
+  "homepage": "https://github.com/AxelClosas/diplo-nodo-fs-modulo-3-sprint-1-tp3#readme",
+  "bugs": {
+    "url": "https://github.com/AxelClosas/diplo-nodo-fs-modulo-3-sprint-1-tp3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelClosas/diplo-nodo-fs-modulo-3-sprint-1-tp3.git"
+  },
+  "license": "MIT",
+  "author": "Axel Closas <axelclosas13@gmail.com>",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
